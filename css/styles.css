@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.navbar {
+  position: sticky;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FEFFE2;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: #FFC947;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #FEFFD2;
+}
+
+.top-container {
+  background-color: #FEFFE2;
+  position: relative;
+  padding-top: 10%;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #FFC947;
+  /* line-height: 2; */
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #FFC947;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #FFAA4C;
+}
+
+a {
+  color: #FFAA4C;
+}
+
+.top-container h2 {
+  font-weight: normal;
+}
+
+.cloud {
+  width: 10%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 20%;
+  top: 4%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 20%;
+  bottom: 50%;
+}
+
+.light-house {
+  width: 45%;
+  margin: 0 auto;
+}
+
+.profile {
+  width: 30%;
+  margin: 100px auto;
+}
+
+.profile p {
+  line-height: 2;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.frontend-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.ui-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-familiar img {
+  width: 10%;
+  float: center;
+}
+
+hr {
+  width: 4%;
+  border: 6px dotted #FFC947;
+  border-bottom: none;
+  margin: 100px auto;
+}
+
+.contact-me a {
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #FFB740;
+  padding: 50px 0 20px;
+}
+
+.bottom-container a {
+  text-decoration: none;
+  color: #FF7600;
+  margin: 10px 20px;
+}
+
+.bottom-container a:hover {
+  opacity: 0.7;
+}
+
+.bottom-container p {
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background-color: #FFAA4C;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+  margin: 40px 2px;
+  /* opacity: 0.6; */
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #FFC947;
+}
